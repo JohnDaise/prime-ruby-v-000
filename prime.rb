@@ -7,5 +7,5 @@ def prime?(n)
     end
   elsif n<=0
     false
-
+  end
 end
