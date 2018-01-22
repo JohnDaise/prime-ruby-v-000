@@ -7,4 +7,5 @@ def prime?(n)
     array.none? do |b|
       n%b == 0
     end
+  end
 end
