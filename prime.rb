@@ -4,6 +4,4 @@ def prime?(i)
   array.none? do |b|
     i%b == 0
   end
-else
-  false
 end
