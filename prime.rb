@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(n)
-  if n>0
+  if n>=0
     array = (2..n**0.5).to_a
     array.none? do |b|
       n%b == 0
